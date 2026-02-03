@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>献立マッチ - カップルで今日のごはんを決めよう</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #FFF9F5 0%, #FFE0E0 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #FF6B6B;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .description {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(255, 107, 107, 0.15);
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .description h2 {
+            color: #FF6B6B;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .feature-icon {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #FF6B6B;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+        }
+        .link-button.secondary {
+            background: white;
+            color: #FF6B6B;
+            border: 2px solid #FF6B6B;
+        }
+        .legal-links {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 107, 107, 0.2);
+        }
+        .legal-links a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+        .legal-links a:hover {
+            color: #FF6B6B;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🍽️</div>
+        <h1>献立マッチ</h1>
+        <p class="tagline">カップルで今日のごはんを決めよう</p>
+
+        <div class="description">
+            <h2>こんなアプリです</h2>
+            <div class="feature">
+                <span class="feature-icon">👆</span>
+                <span>料理カードをスワイプして好みを選択</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">💕</span>
+                <span>パートナーと一緒にマッチング</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🎉</span>
+                <span>お互いが「いいね」した料理でマッチ成立！</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📝</span>
+                <span>オリジナルの料理カードも作れる（Plus）</span>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="https://apps.apple.com/app/id0000000000" class="link-button">
+                App Storeでダウンロード
+            </a>
+        </div>
+
+        <div class="legal-links">
+            <a href="terms.html">利用規約</a>
+            <a href="privacy.html">プライバシーポリシー</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 献立マッチ. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
